@@ -2694,6 +2694,62 @@ label.label-op {
 
 
 
+/* ---- Privacy Policy Css ---- */
+
+.privacy-content {
+    padding: 5rem 0;
+}
+.privacy-box {
+    margin-bottom: 3rem;
+}
+.privacy-content h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.privacy-content a {
+    font-weight: 600;
+    color: #bc3432;
+}
+.privacy-content ul {
+    padding-left: 2rem;
+}
+.privacy-content ul li {
+    font-size: 1.8rem;
+    list-style: circle;
+    padding-bottom: 0.5rem;
+}
+.privacy-content th, .privacy-content td {
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem ;
+    width: 50%;
+}
+.privacy-content th {
+    background: #fdf7f7;
+    font-size: 1.8rem;
+}
+.privacy-banner h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.privacy-banner {
+    background: #bc3432;
+    padding: 4rem 0;
+}
+.refund-page .privacy-content b {
+    display: block;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.privacy-content h5 {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+    margin-top: 2.5rem;
+    font-weight: 600;
+}
+
 
 @keyframes marquee {
     0% {

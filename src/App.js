@@ -6,6 +6,7 @@ import './assets/css/mobile.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
 import ShopifyDevelopment from "./pages/ShopifyDevelopment";
 import LaravelDevelopment from "./pages/LaravelDevelopment";
 import UserExperienceDesign from "./pages/UserExperienceDesign";
@@ -17,6 +18,10 @@ import CodeigniterDevelopment from "./pages/CodeigniterDevelopment";
 import CustomeCommerceDevelopment from "./pages/CustomeCommerceDevelopment";
 import Work from "./pages/Work";
 import ContactUs from "./pages/ContactUs";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import CancellationReturnPolicy from "./pages/CancellationReturnPolicy";
+import TermsConditions from "./pages/TermsConditions";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({
@@ -45,17 +50,22 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />     
           <Route path="/shopify-development" element={<ShopifyDevelopment />} />
-          <Route path="/laravel-development" element={<LaravelDevelopment />} />
-          <Route path="/user-experience-design" element={<UserExperienceDesign />} />
-          <Route path="/work" element={<Work />} />   
+          <Route path="/laravel-development" element={<LaravelDevelopment />} />      
           <Route path="/nodejs-development" element={<NodeJsDevelopment />} />   
           <Route path="/reactjs-development" element={<ReactJsDevelopment />} />   
           <Route path="/wordpress-development" element={<WordpressDevelopment />} />   
           <Route path="/codeigniter-development" element={<CodeigniterDevelopment />} />   
-          <Route path="/custom-ecommerce-development" element={<CustomeCommerceDevelopment />} />    
-          <Route path="/digital-marketing" element={<DigitalMarketing />} />             
-          <Route path="/contact-us" element={<ContactUs />} />                    
+          <Route path="/custom-ecommerce-development" element={<CustomeCommerceDevelopment />} />              
+          <Route path="/user-experience-design" element={<UserExperienceDesign />} />    
+          <Route path="/digital-marketing" element={<DigitalMarketing />} />      
+          <Route path="/work" element={<Work />} />          
+          <Route path="/contact-us" element={<ContactUs />} />     
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />         
+          <Route path="/refund-policy" element={<RefundPolicy />} />  
+          <Route path="/cancellation-return-policy" element={<CancellationReturnPolicy />} />
+          <Route path="/terms-conditions" element={<TermsConditions />} />                             
         </Routes>
         <Footer />
       </Router>

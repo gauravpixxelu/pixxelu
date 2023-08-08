@@ -100,10 +100,10 @@ function Footer() {
                                 <div className="footer-links">
                                     <h3>Policies</h3>
                                     <ul className="site-ul">
-                                        <li><NavLink to="#">Privacy Policy</NavLink></li>
-                                        <li><NavLink to="#">Terms and Conditions</NavLink></li>
-                                        <li><NavLink to="#">Refund Policy</NavLink></li>
-                                        <li><NavLink to="#">Cancellation & Return Policy</NavLink></li>
+                                        <li><NavLink to="/privacy-policy">Privacy Policy</NavLink></li>
+                                        <li><NavLink to="/terms-conditions">Terms and Conditions</NavLink></li>
+                                        <li><NavLink to="/refund-policy">Refund Policy</NavLink></li>
+                                        <li><NavLink to="/cancellation-return-policy">Cancellation & Return Policy</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
