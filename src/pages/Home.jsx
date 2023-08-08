@@ -27,7 +27,7 @@ import IPhone4 from '../assets/images/home-work-slider/iPhone-4.png';
 import IPhone5 from '../assets/images/home-work-slider/iPhone.png';
 import Work1 from '../assets/images/home-work-slider/work1.jpg';
 import Work2 from '../assets/images/home-work-slider/work2.jpg';
-import Work3 from '../assets/images/home-work-slider/work3.jpg';
+import Work3 from '../assets/images/home-work-slider/work3.jpg';   
 import Work4 from '../assets/images/home-work-slider/work4.jpg';
 import Work5 from '../assets/images/home-work-slider/work5.jpg';
 import Work6 from '../assets/images/home-work-slider/work6.jpg';
