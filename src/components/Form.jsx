@@ -33,7 +33,7 @@ const Form = () => {
 
         try {
             const response = await fetch(
-                'https://pixxelu.com/dev/red3sixty/api/contact-us',
+                `${process.env.REACT_APP_API_URL}client-contact-us-email`,
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
