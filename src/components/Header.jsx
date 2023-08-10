@@ -81,7 +81,7 @@ const Header = () => {
                                 <NavLink className="nav-link" to="/about-us">About Us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link dropdown-toggle" to="/shopify-development">
+                                <NavLink className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </NavLink>
                                 <div className="mega-menu">

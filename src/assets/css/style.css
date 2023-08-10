@@ -2120,7 +2120,7 @@ label.label-op {
 .contact-block {
     padding: 0 0 8rem 0;
     position: relative;
-    z-index: 99;
+    z-index: 2;
 }
 .contact-form-block {
     background: #fff;
@@ -2162,7 +2162,7 @@ label.label-op {
     font-weight: 800;
     color: #fff;
     position: relative;
-    z-index: 9;
+    z-index: 2;
 }
 .contact-banner h2 span {
     color: #bc3432;
@@ -2547,8 +2547,8 @@ label.label-op {
 .node-banner .row {
     align-items: center;
 }
-.node-banner img {
-    width: auto;
+.nodejs-page .node-banner img {
+    width: 45rem;
 }
 .node-banner .laravel-box {
     text-align: right;
